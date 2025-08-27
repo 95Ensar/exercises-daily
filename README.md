@@ -30,7 +30,7 @@ Feel free to **follow along**, **review my code**, or **give feedback**!
 
 ## 📫 Contact Me
 📧 Email: [sulejmaniensar@outlook.com](mailto:sulejmaniensar@outlook.com)  
-💼 LinkedIn: *not one*  
+
 
 ---
 
