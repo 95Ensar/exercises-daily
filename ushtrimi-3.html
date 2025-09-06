@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    
+    /* nav{
+      width: 1200px;
+      height: 100px;
+      background-color: coral;
+      border-radius: 10px;
+      margin: 0 auto;
+      display: flex;
+      justify-items: center;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    li{
+      list-style-type: none;
+    }
+
+    ul{
+      width: 600px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    input{
+      padding: 6px 12px;
+      border-radius: 5px;
+      border: none;
+    } */
+
+    .container{
+      width: 600px;
+      height: 600px;
+      border: 2px solid red;
+      margin: 50px auto;
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-rows: 100px 1fr 100px;
+      grid-template-areas: 
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
+
+      grid-template-areas: "header header header" "main main aside" "footer footer footer";
+    }
+
+    header   { grid-area: header; }
+    main     { grid-area: main; }
+    aside    { grid-area: aside; }
+    footer   { grid-area: footer; }
+
+
+   .container header,
+    .container main,
+    .container aside,
+    .container footer {
+      font-size: 23px;
+      background-color: coral;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+   
+  </style>
+</head>
+<body>
+  <!-- 🟢 Beginner
+	1.	Visibility toggle: Create 3 paragraphs. Hide the second one with visibility: hidden; and the third with display: none;. Notice the difference.
+	2.	Variables: Define a CSS variable --main-color and use it for text color and background in multiple elements.
+	3.	Box shadow: Create a card with a box-shadow and border-radius. -->
+<!-- 
+  🟡 Intermediate
+	4.	Positioning practice:
+	•	Place a header fixed at the top.
+	•	Place an image absolutely inside a container (e.g., bottom-right corner).
+	5.	Floating: Create a layout with an image floated left and text wrapping around it.
+	6.	Transitions: Make a button that changes background color smoothly on hover (transition: all 0.3s ease).
+	7.	Transform: Create a square div that rotates 45° on hover. -->
+
+  <!-- 🔵 Advanced
+	8.	Flexbox layout: Build a navbar with display: flex; where items are spaced evenly and one item is pushed to the right.
+	9.	Grid layout: Create a 3×2 grid with areas header, sidebar, main, footer.
+	10.	Responsive design:
+	•	Desktop: Sidebar + Main content side by side.
+	•	Mobile (max-width: 600px): Sidebar moves below main content. -->
+
+
+<!-- 
+    <nav>
+    <ul>
+      <li>home</li>
+      <li>services</li>
+      <li>about us</li>
+    </ul>
+    <input type="search" placeholder="Search...">
+  </nav> -->
+
+  <!-- <div class="container">
+    <header>HEADER</header>
+    <main>MAIN</main>
+    <aside>ASIDE</aside>
+    <footer>FOOTER</footer>
+  </div> -->
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <style>
+
+    /* p::first-letter {
+           font-weight: bold; 
+           color: darkred;
+          font-size: 2em;
+          float: left;
+            margin-right: 0.3rem;
+          line-height: 0.88;
+          font-family: 'Dancing Script', cursive;
+           text-shadow: 3px 3px 4px lightgrey;
+ } */
+
+          /* p::first-line{
+            font-weight: bold;
+            text-transform: capitalize;
+          } */
+
+           p{
+            display: list-item;
+            list-style-type: disc;
+           }
+
+           li::marker{
+            color: red;
+            font-weight: bold;
+            font-size: 0.75rem;
+           }
+</style> 
+</head>
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique facilis quae pariatur perferendis blanditiis cum sequi sapiente qui quos fugiat est saepe necessitatibus hic iusto fugit recusandae expedita, amet assumenda!</p>
+
+    <p style="display: list-item; list-style-type: disc;">
+  This paragraph is styled like a list item.
+</p>
+
+<ul>
+  <li>ensar</li>
+  <li>furkan</li>
+  <li>isra</li>
+</ul>
+
+<p style="display: list-item; list-style-type: disc; margin-left: 20px;">
+  This paragraph now looks like a list item with a bullet.
+</p>
+</body>
+</html>
